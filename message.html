@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love! 🎉❤️</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(to right, rgba(255, 154, 158, 0.8), rgba(250, 208, 196, 0.8)), 
+                        url(background4.jpg) no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: white;
+        }
+        .nav {
+            background-color: rgba(255, 64, 129, 0.8);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #ffebee;
+            font-size: 3em;
+            margin-top: 80px;
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .heart {
+            font-size: 2em;
+            color: red;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .section {
+            padding-top: 100px;
+        }
+        .photo img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 5px solid white;
+        }
+        .message-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+            color: black;
+        }
+        .button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="message.html">Message</a>
+    </nav>
+
+    <div class="section" id="home">
+        <h1>🎉 Happy Birthday, My Love! ❤️</h1>
+        <p class="heart">💖💖💖</p>
+    </div>
+    
+    <div class="section" id="gallery">
+        <div class="photo">
+            <img src="5.jpg" alt="My Beautiful Birthday Girl">
+        </div>
+    </div>
+
+    <div class="section" id="message">
+        <div class="message-box">
+            <p>Dear Ashly Kathleen Grace Plondaya,</p>
+            <p>Happy birthday, my love! 🎂🎁 On this very special day, I just want you to know how much you mean to me. You bring so much joy, love, and happiness into my life, and I am forever grateful to have you.</p>
+            <p>You are the most beautiful person inside and out, and I feel so lucky to call you mine. I hope today brings you all the love, laughter, and warmth that you truly deserve.</p>
+            <p>May your heart always be filled with joy, your dreams always be within reach, and your days always be bright and wonderful. I love you more than words can express! ❤️</p>
+            <p>Love,</p>
+            <p>Your Handsome BF hehe ❤️</p>
+        </div>
+    </div>
+
+    <div class="section" id="surprise">
+        <button class="button" onclick="surpriseMessage()">Click Me for a Surprise 💖</button>
+    </div>
+
+    <script>
+        function surpriseMessage() {
+            alert("You are the love of my life! Happy Birthday again, my sweetheart! 🎉❤️");
+        }
+    </script>
+
+</body>
+</html>
